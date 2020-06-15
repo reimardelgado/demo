@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Demo",
+    "slug": "Demo-Diarios",
+    "privacy": "unlisted",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],    
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#314253"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "ios.diarios.demo",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "apk.diarios.demo",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
